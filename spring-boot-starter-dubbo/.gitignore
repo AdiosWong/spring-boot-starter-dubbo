@@ -8,11 +8,6 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
 # Package Files #
 *.jar
 *.war
@@ -22,4 +17,11 @@ buildNumber.properties
 .idea
 target
 
-hs_err_pid*
+/.settings
+*.project
+*.settings
+/target
+*.classpath
+*.log
+.idea/**/*
+*.class
